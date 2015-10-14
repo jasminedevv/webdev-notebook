@@ -1,0 +1,83 @@
+header {
+  padding: 0px 0px 10px 0px;
+  background-color: #225;
+  position: relative;
+  z-index: 2;
+}
+
+.description {
+  color: #fff;
+  font-size: 17px;
+  font-weight: lighter;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  margin-top: 0;
+  background-color: #559;
+  padding: 40px;
+}
+
+nav {
+  color: #ccc;
+  padding: 0;
+  margin: 0 20px;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  border-radius: 0;
+}
+
+nav li:hover {
+  background-color: white;
+  color: #da0;
+}
+
+.bg {
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/eight_horns.png") repeat;
+  position: fixed;
+  width: 100%;
+  height: 600%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.thing {
+  margin: 5%;
+}
+
+.box-holder {
+  padding: 0px;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #55a;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: right;
+  background-color: #225;
+  color: white;
+  margin-top: 50px;
+  padding: 10px;
+  padding-bottom: 1px;
+}
